@@ -2,20 +2,28 @@
 /* Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Headers */
 h1,h2,h3,h4{
     font-weight: 800; 
 }
 h5{
     font-weight: 600;
+    font-size: 1.3em;
 }
-body{
-    font-family: 'Manrope', sans-serif;
+h1{
+    font-size: 4em;
 }
 
 
 /* Navbar Section*/
 .navbar{
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .nav-link{
     color: #18191f !important;
@@ -72,8 +80,24 @@ body{
 /* MOBILE */
 
 @media only screen and (max-width: 768px) {
+    h1{
+        font-size: 3em;
+    }
     .main-photo-col{
         display: none;
     }
+    .page{
+        height: 100%;
+        padding: 50px 0px;
+    }
+
+    .second-page{
+        background-color: #D5FAFC;
+    }
+    .navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
 }
 
