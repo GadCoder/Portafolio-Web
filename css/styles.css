@@ -1,5 +1,79 @@
 
+/* Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+h1,h2,h3,h4{
+    font-weight: 800; 
+}
+h5{
+    font-weight: 600;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* Navbar Section*/
 .navbar{
-    border-bottom: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.nav-link{
+    color: #18191f !important;
+}
+
+.page{
+    height: 866px;
+}
+
+
+/* Main Section */
+.photo-circle{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.main-photo-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.about-me-btn{
+    border: none;
+    background-color: white;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+
+/* Technologys Section*/
+.logo-container{
+    height: 180px;
+}
+
+.tech-logo{
+    width: auto;
+    max-height: 100%;
+}
+
+.technology-container{
+    width: 200px;
+    text-align: center;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+    .main-photo-col{
+        display: none;
+    }
 }
 
