@@ -54,7 +54,7 @@ h1{
 .about-me-btn{
     border: none;
     background-color: white;
-    width: 25%;
+    width: 10em;
     height: 50px;
     border-radius: 10px;
     margin-left: 10px;
@@ -64,6 +64,7 @@ h1{
 
 /* Technologys Section*/
 .logo-container{
+    width: auto;
     height: 180px;
 }
 
