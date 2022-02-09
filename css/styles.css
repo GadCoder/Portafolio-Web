@@ -98,8 +98,13 @@ h1{
         background-color: #D5FAFC;
     }
     .navbar{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tech-logo{
+        width: 75%;
+        height: 150px;
+        object-fit: contain;
     }
     
 }
