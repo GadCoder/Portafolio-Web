@@ -84,14 +84,14 @@ h1{
 
 @media only screen and (max-width: 768px) {
     h1{
-        font-size: 3em;
+        font-size: 2em;
     }
     .main-photo-col{
         display: none;
     }
     .page{
         height: 100%;
-        padding: 50px 0px;
+        padding: 10px 0px;
     }
 
     .second-page{
@@ -101,11 +101,19 @@ h1{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .logo-container{
+        height: 120px;
+    }
     .tech-logo{
         width: 75%;
-        height: 150px;
+        height: 100px;
         object-fit: contain;
     }
+
+    .row{
+        margin-top: 20px !important;
+    }
+
     
 }
 
